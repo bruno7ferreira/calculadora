@@ -50,7 +50,6 @@ public class Teclado extends JPanel {
         adicionarBotao(",", COR_CINZA_CLARO, c, 2, 4);
         adicionarBotao("=", COR_LARANJA, c, 3, 4);
 
-
     }
 
     private void adicionarBotao(String texto, Color cor, GridBagConstraints c, int x, int y) {

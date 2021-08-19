@@ -15,7 +15,6 @@ public class Calculadora extends JFrame {
 
     }
 
-
     //Método MAIN
     public static void main(String[] args) {
         new Calculadora();

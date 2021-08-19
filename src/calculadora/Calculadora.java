@@ -21,10 +21,11 @@ public class Calculadora extends JFrame {
         setLayout(new BorderLayout());
 
         Display display = new Display();
-        add(display);
+        add(display, BorderLayout.NORTH);
+        display.setPreferredSize(new Dimension(233, 60));
 
         Teclado teclado = new Teclado();
-        add(teclado);
+        add(teclado, BorderLayout.CENTER);
 
 
     }

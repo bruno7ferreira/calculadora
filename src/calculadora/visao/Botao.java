@@ -1,4 +1,4 @@
-package calculadora;
+package calculadora.visao;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;

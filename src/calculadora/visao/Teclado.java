@@ -1,4 +1,6 @@
-package calculadora;
+package calculadora.visao;
+
+import calculadora.visao.Botao;
 
 import javax.swing.JPanel;
 import java.awt.Color;

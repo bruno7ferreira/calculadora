@@ -1,5 +1,8 @@
 package calculadora;
 
+import calculadora.visao.Display;
+import calculadora.visao.Teclado;
+
 import javax.swing.JFrame;
 import java.awt.BorderLayout;
 import java.awt.Dimension;

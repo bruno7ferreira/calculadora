@@ -1,7 +1,9 @@
 package calculadora;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import java.awt.Color;
+import java.awt.Font;
 
 public class Botao extends JButton {
 

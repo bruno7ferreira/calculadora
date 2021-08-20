@@ -1,7 +1,8 @@
 package calculadora;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
 
 public class Calculadora extends JFrame {
 

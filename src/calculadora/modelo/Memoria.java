@@ -96,7 +96,6 @@ public class Memoria {
         try {
             Integer.parseInt(texto);
             return TipoComando.NUMERO;
-
         } catch (NumberFormatException e) {
 
             //Quando não for número

@@ -56,7 +56,6 @@ public class Memoria {
             textoBuffer = textoAtual;
             ultimaOperacao = tipoComando;
         }
-
         observadores.forEach(o -> o.valorAlterado(getTextoAtual()));
     }
 

@@ -113,7 +113,6 @@ public class Memoria {
                 return TipoComando.IGUAL;
             } else if ("+/-".equals(texto)) {
                 return TipoComando.SINAL;
-
             }
         }
         return null;

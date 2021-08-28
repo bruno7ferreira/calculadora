@@ -83,6 +83,8 @@ public class Memoria {
         String texto = Double.toString(resultado).replace(".", ",");
         boolean inteiro = texto.endsWith(",0");
         return inteiro ? texto.replace(",0", "") : texto;
+
+
     }
 
     private TipoComando detectarTipoComando(String texto) {
